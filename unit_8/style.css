@@ -1,0 +1,208 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+body {
+	color:#fff;
+	background-size:cover;
+	background-repeat: no-repeat;
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+}
+h1 {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+	padding: 5px 0px 0px 0px;
+}
+h2 {
+	font-size: 14px;
+}
+header{
+    display:block;
+    width: 100%;
+    background-color: #000;
+    overflow: auto;
+}
+#imgheader{
+	display:block;
+    width: 30px;
+    padding: 20px;
+    float: left;
+}
+div {
+  font-size: 16px;
+  display: block;
+
+}
+#headerlogo{
+	background-color: #000;
+	width: 50%;
+    font-size: 16px;
+    position: relative;
+    float: left;
+}
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+nav {
+	background-color: #000;
+	width: 50%;
+	font-family: 'Oswald', sans-serif;
+	float: right;
+
+} 
+nav a {	
+	background-color: #000;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 23px;
+	color: #fff;
+	display: block;
+	float: right;
+}
+a:hover{
+	background-color: #AB2C29;
+}
+#donatebutton{
+	background-color: #AB2C29;
+}
+section {
+	width: 100%;
+}
+#section1{
+	background-image:url('alger2.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	 overflow: auto;
+}
+#imglogo{
+    width: 400px;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#section2{
+	background-color: #fff;
+	color: #AB2C29;
+	font-size: 20px;
+	padding: 20px 0px 20px 0px;
+	margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    text-align: center;
+
+}
+#section3{
+	background-color: #AB2C29;
+}
+.column {
+	width:100%;
+  float:left;
+  padding: 4%;
+  margin:0 auto;
+  background-color: #AB2C29;
+}
+#column1 {
+	width:25.33%;
+    background-color: #AB2C29;
+	color:#fff;
+	font-size: 14px;
+  margin: auto;
+  text-align: center;
+}
+#column2 {
+	width:25.33%;
+	background-color: #AB2C29;
+	color:#fff;
+	font-size: 14px;
+  	display: block;
+  	margin: auto;
+    text-align: center;
+
+}
+#column3 {
+	width:25.33%;
+	background-color: #AB2C29;
+	color:#fff;
+	font-size: 14px;
+  	display: block;
+  	margin: auto;
+    text-align: center;
+
+}
+#icons{
+	width:50%;
+	display: block;
+	margin: auto;
+}
+footer {
+	background-color: #000;
+	text-align: center;
+	padding: 1em 0;
+	font-size: 12px;
+  clear: both;
+}
+#footerimg{
+  width: 50px;
+  float: left;
+  padding: 5px 5px 5px 5px;
+  margin: auto;
+  vertical-align: middle;
+}
+
+
+@media only screen and (max-width: 800px) {
+  nav {
+    float: none;
+  }	
+  nav {
+    float: none;
+  }
+  nav a {
+      margin: 0 .0em 0em 0;
+  }
+  img {
+    width: 320px;
+  }
+
+@media only screen and (max-width: 480px) {
+  h1, nav {
+    display: block;
+    text-align: center;
+  }
+    h2 {
+    font-size: 1em;
+    display: inline;
+  }
+  p, ul {
+    margin: 1.8em .6em 0;
+  }
+  li {
+    width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+    height: 2em;
+    line-height: 2em;
+  }
+  nav a {
+    margin: .5em .5em .5em .5em;
+    float: none;
+  }
+  img {
+    width: 230px;
+  }
+    section, div {
+    width: 100%;
+    padding: .2em;
+  }
+  .column {
+    float: none;
+    font-size: 1.4em;
+  }
+}
+}
